@@ -21,7 +21,7 @@ import WeatherHeader from '@/components/WeatherHeader.vue'
 
 // Title of the application
 const title = ref('Vue Weather App')
-</script>
+</sipt>
 
 <style>
 @import './assets/base.css';
