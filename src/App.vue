@@ -20,7 +20,7 @@ import WeatherHeader from '@/components/WeatherHeader.vue'
 // ----
 
 // Title of the application
-const title = ref('Vue Weather App')
+const title = ref('Vue Weather Application')
 </script>
 
 <style>
