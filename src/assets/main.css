@@ -1,0 +1,28 @@
+@import "./base.css";
+
+body {
+  background-color: #D5D5D5;
+  color: black;
+  font-family: Verdana, sans-serif;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
+  margin: 6px;
+}
+
+button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

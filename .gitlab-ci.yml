@@ -1,0 +1,26 @@
+image: node:16.16.0
+
+cache:
+  untracked: true
+  paths:
+    - node_modules/
+
+stages:
+  - setup
+  - test
+
+setup:
+  stage: setup
+  script:
+    - npm install
+
+test:
+  stage: test
+  script:
+    - npm run test:unit
+
+coverage:
+  stage: test
+  script:
+    - npm run test:coverage
+  coverage: /All files\s*\|\s*(\d+\d+)/
